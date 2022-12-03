@@ -49,21 +49,18 @@
                }
             },
 
-            login(){
-                // console.log("Username = ",this.username.toLowerCase());
-                // console.log("Password = ",this.password.toLowerCase());
-            
-                if(this.username.toUpperCase() == "" && this.password.toUpperCase() == ""){
+            login(){   
+                if(this.username == "" || this.password == ""){
                     alert("Please enter all fields properly.");
-                }
-
-                if(this.username.toUpperCase() == "SSBT11" && this.password.toUpperCase() == "SSBT11"){
-                    localStorage.setItem("token",this.username.concat(this.password));
-                    alert("Just to let you know, your login has been successful !")
-                    this.auth();
                 }else{
-                    alert("Please enter the correct credentials.");
-                }
+                    if(this.username.toUpperCase() == "SSBT11" && this.password.toUpperCase() == "SSBT11"){
+                        localStorage.setItem("token",this.username.concat(this.password));
+                        alert("Just to let you know, your login has been successful !")
+                        this.auth();
+                    }else{
+                        alert("Please enter the correct credentials.");
+                    }
+                }  
             },
         },
         mounted(){
