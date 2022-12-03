@@ -1,0 +1,176 @@
+/* ===========Import Google Fonts=========== */
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap'); 
+/* ========X===Import Google Fonts===X======== */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-weigh4: 400;
+    --font-weigh5: 500;
+    --font-weigh6: 600;
+    --color1: #1da5ca;
+    --color2: #FFFFFF;
+    --color3: #ACB1B4;
+    --color4: #1b2837;
+    --color5: #737A80;
+    --color6: #02121E;
+    --color8: #FF0000;
+    --box-shadowcard: 0 4px 16px rgb(0 0 0 / 10%);
+}
+
+body{
+    background-color: var(--color2);
+    font-family: 'Poppins', sans-serif;
+    color: var(--color6);
+}
+
+/* ===========Login Page Commponents============= */
+    .login{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .login .login_body{
+        flex-basis: 50%;
+        background-color: var(--color2);
+        box-shadow: var(--box-shadowcard);
+        padding: 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .login .login_body .heading_login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        border-bottom: 1px solid var(--color1);
+    }
+    .login .login_body .heading_login .logo, .login .login_body .heading_login .title{
+        padding: 10px;
+    }
+    .login .login_body .heading_login .logo img{
+        width: 150px;
+        height: 150px;
+        object-fit: contain;
+    }
+    .login .login_body .heading_login .title h1{
+        color: var(--color4);
+        font-weight: var(--font-weigh6);
+    }
+    .login .login_body .heading_login .title span{
+        color: var(--color1);
+    }
+    .login .login_body .login_form{
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .login .login_body .login_form .form-control{
+        box-shadow: var(--box-shadowcard);
+        border: 2px solid var(--color2);
+        font-weight: var(--font-weigh5);
+        font-size: 16px;
+    }
+    .login .login_body .login_form .form-label{
+        font-size: 16px;
+        font-weight: var(--font-weigh5);
+        color: var(--color4);
+    }
+    .login .login_body .login_form .form-control:focus{
+        border: 2px solid var(--color1);
+    }
+    .login .login_body .login_form .btn{
+        background-color: var(--color1);
+        color: var(--color2);
+        font-weight: var(--font-weigh5);
+        box-shadow: none;
+        font-size: 16px;
+    }
+    .login .login_body .login_form h3{
+        text-align: center;
+        font-weight: var(--font-weigh6);
+        color: var(--color1);
+    }
+    .login .login_body .login_form p{
+        text-align: center;
+        font-weight: var(--font-weigh6);
+        color: var(--color3);
+    }
+
+/* =======X===Login Page Commponents===X========= */
+
+/* =============Project Details Page============== */
+
+    .navigation{
+        padding: 10px;
+        text-align: right;
+    }
+    .navigation .btn {
+        background-color: red;
+        color: var(--color2);
+        font-weight: var(--font-weigh5);
+        box-shadow: none;
+        font-size: 16px;
+    }
+    .project_details .deatil h2{
+        font-weight: var(--font-weigh6);
+        color: var(--color1);
+        padding: 10px 0px;
+    }
+    .project_details .deatil ul{
+        list-style-type: none;
+        padding: 0px;
+    }
+    .project_details .deatil ul li{
+        font-weight: var(--font-weigh6);
+        font-size: 20px;
+        color: var(--color6);
+        padding: 5px 0px;
+    }
+    .project_details .deatil ul li span{
+        font-size: 22px;
+        color: var(--color5);
+    }
+    .project_details .alert {
+        font-weight: var(--font-weigh6);
+    }
+/* =========X===Project Details Page===X========== */
+
+/* ===============Responsive Ness============== */
+    @media(max-width : 1024px){
+        .login .login_body{
+            flex-basis: 75%;
+        }
+    }
+    @media(max-width : 768px){
+        .login .login_body{
+            flex-basis: 100%;
+        }
+    }
+    @media(max-width : 500px){
+        .login .login_body .heading_login{
+            flex-direction: column;
+            text-align: center;
+        }
+        .login .login_body .heading_login .logo img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+    @media(max-width : 374px){
+        .login .login_body{
+            padding: 10px;
+        }
+        .login .login_body .heading_login .logo img{
+            width: 80px;
+            height: 80px;
+        }
+        .login .login_body .login_form{
+            padding: 5px;
+        }
+    }
+/* ===========X===Responsive Ness===X========== */
