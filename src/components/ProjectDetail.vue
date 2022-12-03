@@ -41,10 +41,21 @@
 export default {
     name : "ProjectDetails",
     methods :{
+      auth(){
+          const token = localStorage.getItem("token");
+          if(token == null){
+            console.log("Token", token)
+              this.$router.push('/')
+          }
+      },
       logOut(){
         localStorage.clear();
         this.$router.push('/');
+        this.auth();
       }
+    },
+    mounted(){
+      this.auth();
     }
 }
 </script>

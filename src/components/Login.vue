@@ -53,7 +53,7 @@
                 // console.log("Username = ",this.username.toLowerCase());
                 // console.log("Password = ",this.password.toLowerCase());
             
-                if(this.username.toLocaleLowerCase == "" || this.password.toLowerCase == ""){
+                if(this.username.toUpperCase() == "" && this.password.toUpperCase() == ""){
                     alert("Please enter all fields properly.");
                 }
 
