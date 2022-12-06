@@ -31,6 +31,7 @@
 </template>
 
 <script>
+    import JSON from "../jsonData/user.json";
     export default {
         // eslint-disable-next-line vue/multi-word-component-names
         name: 'Login',
@@ -53,13 +54,15 @@
                 if(this.username == "" || this.password == ""){
                     alert("Please enter all fields properly.");
                 }else{
-                    if(this.username.toUpperCase() == "SSBT11" && this.password.toUpperCase() == "SSBT11"){
-                        localStorage.setItem("token",this.username.concat(this.password));
-                        alert("Just to let you know, your login has been successful !")
-                        this.auth();
-                    }else{
-                        alert("Please enter the correct credentials.");
-                    }
+                    JSON.find(x=>{
+                        if(x.username == this.username.toUpperCase() && x.password == this.password.toUpperCase()){
+                            localStorage.setItem("token",x.id);
+                            alert("Just to let you know, your login has been successful !")
+                            this.auth();
+                        }else{
+                            alert("Please enter the correct credentials.");
+                        }
+                    })
                 }  
             },
         },

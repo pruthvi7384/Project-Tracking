@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "projectId": 1,
+        "technologies":{
+            "FrontEnd" : [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "FrontEndFramwork" : [
+                "Vue Js",
+                "Boostrap"
+            ],
+            "Backend" : [
+                "Java"
+            ],
+            "BackendFramwork":[
+                "SpringBoot"
+            ],
+            "Database":[
+                "MySQL"
+            ]
+        }
+    }
+]

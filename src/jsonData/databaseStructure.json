@@ -1,0 +1,150 @@
+[
+    {
+        "id":1,
+        "projectId": 1,
+        "table":"User",
+        "attributes":[
+            {
+                "id": 1,
+                "name": "id",
+                "type": "integer",
+                "size": "15"
+            },
+            {
+                "id": 1,
+                "name": "name",
+                "type": "varchar",
+                "size": "255"
+            },
+            {
+                "id": 2,
+                "name": "password",
+                "type": "varchar",
+                "size": "255"
+            },
+            {
+                "id": 3,
+                "name": "emailId",
+                "type": "varchar",
+                "size": "255"
+            },
+            {
+                "id": 4,
+                "name": "status",
+                "type": "tyint",
+                "size": ""
+            },
+            {
+                "id": 5,
+                "name": "registerDate",
+                "type": "timestamp",
+                "size": ""
+            },
+            {
+                "id": 6,
+                "name": "updateDate",
+                "type": "timestamp",
+                "size": ""
+            }
+        ]
+    },
+    {
+        "id":2,
+        "projectId":1,
+        "table":"role",
+        "attributes":[
+            {
+                "id": 1,
+                "name": "id",
+                "type": "integer",
+                "size": "15"
+            },
+            {
+                "id": 2,
+                "name": "role",
+                "type": "varchar",
+                "size": "255"
+            },
+            {
+                "id": 3,
+                "name": "status",
+                "type": "tyint",
+                "size": ""
+            },
+            {
+                "id": 4,
+                "name": "updateDate",
+                "type": "timestamp",
+                "size": ""
+            }
+        ]
+    },
+    {
+        "id":3,
+        "projectId":1,
+        "table":"roleUser",
+        "attributes":[
+            {
+                "id": 1,
+                "name": "id",
+                "type": "integer",
+                "size": "15"
+            },
+            {
+                "id": 2,
+                "name": "userId",
+                "type": "integer",
+                "size": "15"
+            },
+            {
+                "id": 3,
+                "name": "roleId",
+                "type": "integer",
+                "size": "15"
+            }
+        ]
+    },
+    {
+        "id":4,
+        "projectId":1,
+        "table":"profile",
+        "attributes":[
+            {
+                "id": 1,
+                "name": "id",
+                "type": "integer",
+                "size": "15"
+            },
+            {
+                "id": 2,
+                "name": "userId",
+                "type": "integer",
+                "size": "15"
+            },
+            {
+                "id": 3,
+                "name": "address",
+                "type": "varchar",
+                "size": "255"
+            },
+            {
+                "id": 4,
+                "name": "contactNumber",
+                "type": "varchar",
+                "size": "15"
+            },
+            {
+                "id": 5,
+                "name": "information",
+                "type": "text",
+                "size": "500"
+            },
+            {
+                "id": 6,
+                "name": "updateDate",
+                "type": "timestamp",
+                "size": ""
+            }
+        ]
+    }
+]

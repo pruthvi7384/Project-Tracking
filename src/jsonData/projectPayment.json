@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "projectId": 1,
+        "rupes":"2000",
+        "type": "Online",
+        "Platform": "Phone Pay",
+        "Payer Name" : "",
+        "Transaction Id": "",
+        "date": "",
+        "description":"Project Booking Amount",
+        "status" : "Done"
+    }
+]

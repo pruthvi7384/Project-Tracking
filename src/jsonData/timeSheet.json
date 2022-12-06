@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "projectId": 1,
+        "startDate" : "03 Dec 2022",
+        "endDate" : "03 Dec 2022",
+        "Category": "Implementatio",
+        "SubCategory":"Front End",
+        "task" : "Front End Project Folder Setup",
+        "status": "Done"
+    },
+    {
+        "id": 2,
+        "projectId": 1,
+        "startDate" : "04 Dec 2022",
+        "endDate" : "04 Dec 2022",
+        "Category": "Implementatio",
+        "SubCategory":"Front End",
+        "task" : "Backend Project Folder Setup",
+        "status": "Pending"
+    },
+    {
+        "id": 3,
+        "projectId": 1,
+        "startDate" : "05 Dec 2022",
+        "endDate" : "10 Dec 2022",
+        "Category": "Implementatio",
+        "SubCategory":"Front End",
+        "task" : "Database Model Creation",
+        "status": "Pending"
+    }
+]
