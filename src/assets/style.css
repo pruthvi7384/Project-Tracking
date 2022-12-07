@@ -148,9 +148,6 @@ body{
         font-size: 20px;
         color: var(--color5);
     }
-    .project_details .alert {
-        font-weight: var(--font-weigh6);
-    }
     .project_details .deatil .btn{
         background-color: var(--color1);
         color: var(--color2);
@@ -159,6 +156,56 @@ body{
         font-size: 16px;
     }
 /* =========X===Project Details Page===X========== */
+
+/* ============= Project Dashboard Page ============= */
+    .project_dashboard {
+        justify-content: center;
+    }
+    .project_dashboard h2{
+        font-weight: var(--font-weigh6);
+        color: var(--color1);
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .project_dashboard .card_dashboard{
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: var(--box-shadowcard);
+        border-radius: 10px;
+    }
+    .project_dashboard .card_dashboard i {
+        background-color: var(--color1);
+        padding: 13px;
+        font-size: 28px;
+        margin: 10px 0px;
+        color: var(--color2);
+        border-radius: 50%;
+    }
+    .project_dashboard .card_dashboard h3{
+        font-size: 22px;
+        font-weight: var(--font-weigh6);
+        color: var(--color4);
+        padding: 5px 0px;
+    }
+    .project_dashboard .card_dashboard p{
+        font-size: 18px;
+        font-weight: var(--font-weigh5);
+        color: var(--color5);
+    }
+    .project_dashboard .card_dashboard .btn{
+        background-color: var(--color1);
+        color: var(--color2);
+        font-weight: var(--font-weigh5);
+        box-shadow: none;
+        cursor: pointer;
+        font-size: 16px;
+    }
+/* =========X=== Project Dashboard Page ===X========= */
+
+    .alert{
+        font-weight: var(--font-weigh6);
+    }
 
 /* ===============Responsive Ness============== */
     @media(max-width : 1024px){

@@ -1,13 +1,15 @@
 <template>
   <div class="container">
-    <Navigation></Navigation>
-    <div class="row project_details">
+    <Navigation to="/project-detail"></Navigation>
+    <div class="row project_dashboard mt-3">
         <div class="col-xl-12">
-            <div class="col-xl-12 mt-2">
-                <div class="alert alert-danger" role="alert">
-                    Your project-related details Our team update within 7 days please wait.
-                </div>
-            </div>
+            <h2>Dashboard</h2>
+        </div>
+        <div class="col-xl-4 card_dashboard" v-for="(Data, index) in dashbard" :key="index">
+            <i :class="Data.icon"></i>
+            <h3>{{Data.title}}</h3>
+            <p>{{Data.description}}</p>
+            <router-link :to="Data.to"><button class="btn">Track More</button></router-link>
         </div>
     </div>
   </div>
@@ -15,8 +17,14 @@
 
 <script>
 import Navigation from './Navigation'
+import JSON from "../jsonData/dashboard.json"
 export default {
     name: "ProjectInfoCard",
+    data(){
+        return{
+            dashbard : JSON
+        }
+    },
     methods: {
         auth(){
           const token = localStorage.getItem("token");

@@ -1,6 +1,6 @@
 <template>
     <div class="container-fluid">
-        <Navigation></Navigation>
+        <Navigation not="/project-detail"></Navigation>
     </div>
     <div class="container project_details">
       <div class="row justify-content-center">
@@ -61,7 +61,6 @@ export default {
             JSON.find(x => {
               x.userId == this.userId ? this.projectInfo.push(x) : (console.log("No Data Found"))
             })
-            console.log(this.projectInfo)
           }
       }
     },
