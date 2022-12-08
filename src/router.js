@@ -24,22 +24,22 @@ const routes = [
         component : ProjectInfoCard
     },
     {
-        path : "/technology",
+        path : "/technology/:id",
         name : "Technology",
         component : Technology
     },
     {
-        path : "/payment",
+        path : "/payment/:id",
         name : "Payment",
         component : Payment
     },
     {
-        path : "/database",
+        path : "/database/:id",
         name : "Database",
         component : Database
     },
     {
-        path : "/timesheet",
+        path : "/timesheet/:id",
         name : "Timesheet",
         component : Timesheet
     }

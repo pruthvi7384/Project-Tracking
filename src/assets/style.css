@@ -203,6 +203,67 @@ body{
     }
 /* =========X=== Project Dashboard Page ===X========= */
 
+/* ============Technology=============== */
+    .technology h2{
+        font-weight: var(--font-weigh6);
+        color: var(--color1);
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .technology{
+        justify-content: center;
+    }
+    .technology .card_technology{
+        margin: 10px;
+        padding: 20px;
+        box-shadow: var(--box-shadowcard);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .technology .card_technology h3{
+        font-size: 22px;
+        font-weight: var(--font-weigh6);
+        color: var(--color4);
+        padding: 5px 0px;
+    }
+    .technology .card_technology ul{
+        padding: 0px;
+        list-style-type: none;
+       
+    }
+    .technology .card_technology ul li{
+        font-size: 18px;
+        font-weight: var(--font-weigh6);
+        color: var(--color5);
+    }
+
+/* ========X===Technology===X=========== */
+
+/* =============Payment=========== */
+    .payment h2{
+        font-weight: var(--font-weigh6);
+        color: var(--color1);
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .payment .payment_card{
+        box-shadow: var(--box-shadowcard);
+        color: var(--color2);
+        border-radius: 10px;
+    }
+    .payment .payment_card .table th{
+        font-weight: var(--font-weigh6);
+        color: var(--color4);
+    }
+    .payment .payment_card .table td{
+        font-weight: var(--font-weigh5);
+        color: var(--color6);
+    }
+    .payment .payment_card .table thead, tbody, tfoot, tr, td, th {
+        border-color: var(--color1) !important;
+    }
+/* =============Payment=========== */
+
     .alert{
         font-weight: var(--font-weigh6);
     }

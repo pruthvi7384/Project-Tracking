@@ -2,25 +2,40 @@
     {
         "id": 1,
         "projectId": 1,
-        "technologies":{
-            "FrontEnd" : [
-                "HTML",
-                "CSS",
-                "JavaScript"
-            ],
-            "FrontEndFramwork" : [
-                "Vue Js",
-                "Boostrap"
-            ],
-            "Backend" : [
-                "Java"
-            ],
-            "BackendFramwork":[
-                "SpringBoot"
-            ],
-            "Database":[
-                "MySQL"
-            ]
-        }
+        "technologies":[
+            {
+                "title": "Front End",
+                "languages": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ]
+            },
+            {
+                "title": "Frontend Framwork",
+                "languages": [
+                    "Vue Js",
+                    "Boostrap"
+                ]
+            },
+            {
+                "title": "Back End",
+                "languages": [
+                    "Java"
+                ]
+            },
+            {
+                "title": "Backend Framwork",
+                "languages": [
+                    "SpringBoot"
+                ]
+            },
+            {
+                "title": "Database",
+                "languages": [
+                    "MySQL"
+                ]
+            }
+        ]
     }
 ]

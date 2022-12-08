@@ -12,7 +12,7 @@ export default {
     // eslint-disable-next-line vue/multi-word-component-names
     name : "Navigation",
     props:{
-      to : String,
+      to : Object,
       not : String
     },
     methods : {

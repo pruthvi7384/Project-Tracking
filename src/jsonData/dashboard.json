@@ -4,27 +4,31 @@
         "title": "Technology Details",
         "description": "Your project building technology details.",
         "icon": "fa-solid fa-laptop-code",
-        "to": "/technology"
+        "to": "/technology",
+        "component": "Technology"
     },
     {
         "id":2,
         "title": "Payment Details",
         "description": "Your project related payment details.",
         "icon": "fa-solid fa-cash-register",
-        "to": "/payment"
+        "to": "/payment",
+        "component": "Payment"
     },
     {
         "id":3,
         "title": "Database Structure",
         "description": "Your project used database structure related details.",
         "icon": "fa-solid fa-database",
-        "to": "/database"
+        "to": "/database",
+        "component": "Database"
     },
     {
         "id":4,
         "title": "Time Sheet",
         "description": "Your project related time sheet details.",
         "icon": "fa-solid fa-calendar",
-        "to": "/timesheet"
+        "to": "/timesheet",
+        "component": "Timesheet"
     }
 ]

@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <navigation to="/project-detail/1"></Navigation>
+    <navigation :to="{ name: 'ProjectInfoCard', params: { id: this.$route.params.id } }"></Navigation>
     <div class="row">
         <div class="col-xl-12 mt-2">
             <div class="alert alert-danger" role="alert">

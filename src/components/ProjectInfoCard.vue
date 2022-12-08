@@ -9,7 +9,7 @@
             <i :class="Data.icon"></i>
             <h3>{{Data.title}}</h3>
             <p>{{Data.description}}</p>
-            <router-link :to="Data.to"><button class="btn">Track More</button></router-link>
+            <router-link :to="{ name: Data.component, params: { id: this.$route.params.id } }"><button class="btn">Track More</button></router-link>
         </div>
     </div>
   </div>
