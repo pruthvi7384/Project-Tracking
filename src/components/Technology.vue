@@ -7,8 +7,8 @@
         </div>
         <div class="col-xl-3 card_technology" v-for="(data, index) in this.technology" :key="index">
             <h3>{{data.title}}</h3>
-            <ul v-for="(lan, ind) in data.languages" :key="ind">
-              <li>{{lan}}</li>
+            <ul>
+              <li v-for="(lan, ind) in data.languages" :key="ind">{{lan}}</li>
             </ul>
         </div>
     </div>
