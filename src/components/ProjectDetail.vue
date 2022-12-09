@@ -31,6 +31,9 @@
             <li>
               <span>End Date : </span> {{data.endDate != "" ? data.endDate : ""}}
             </li>
+            <li>
+              <span>Project Live Preview : </span> <a :href="data.projectLivePriview != '' ? data.projectLivePriview : '#'" target="__blank">{{data.projectLivePreview}}</a>
+            </li>
           </ul>
             <div>
               <router-link :to="{name: 'ProjectInfoCard', params: { id: data.id }}"><button class="btn">Track More</button></router-link>

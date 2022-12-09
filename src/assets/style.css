@@ -240,22 +240,22 @@ body{
 /* ========X===Technology===X=========== */
 
 /* =============Payment=========== */
-    .payment h2{
+    .payment h2, .timesheet h2{
         font-weight: var(--font-weigh6);
         color: var(--color1);
         text-align: center;
         padding-bottom: 10px;
     }
-    .payment .payment_card{
+    .payment .payment_card .timesheet .timesheet_card{
         box-shadow: var(--box-shadowcard);
         color: var(--color2);
         border-radius: 10px;
     }
-    .payment .payment_card .table th{
+    .payment .payment_card .table th, .timesheet .timesheet_card .table th{
         font-weight: var(--font-weigh6);
         color: var(--color4);
     }
-    .payment .payment_card .table td{
+    .payment .payment_card .table td, .timesheet .timesheet_card .table td{
         font-weight: var(--font-weigh5);
         color: var(--color6);
     }
@@ -263,6 +263,52 @@ body{
         border-color: var(--color1) !important;
     }
 /* =============Payment=========== */
+
+/* ==============Database============= */
+    .database {
+        justify-content: center;
+    }
+    .database h2{
+        font-weight: var(--font-weigh6);
+        color: var(--color1);
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .database .database_card{
+        box-shadow: var(--box-shadowcard);
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .database .database_card h3{
+        font-size: 22px;
+        font-weight: var(--font-weigh6);
+        color: var(--color4);
+        padding: 10px 0px 20px 0px;
+        text-transform: uppercase;
+        border-bottom: 2px solid var(--color1);
+    }
+    .database .database_card ul{
+        padding: 0px;
+        list-style-type: none;
+        margin-top: 20px;
+        border: 1px solid var(--color1);
+    }
+    .database .database_card ul li span{
+        font-size: 18px;
+        font-weight: var(--font-weigh6);
+        color: var(--color6);
+        margin: 10px 0px;
+        padding: 0px 10px 0px 0px;
+    }
+    .database .database_card ul li{
+        color: var(--color5);
+        font-weight: var(--font-weigh6);
+        border-bottom: 1px solid var(--color1);
+        padding: 10px;
+    }
+/* ==========X===Database===X========= */
 
     .alert{
         font-weight: var(--font-weigh6);

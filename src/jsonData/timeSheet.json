@@ -4,9 +4,9 @@
         "projectId": 1,
         "startDate" : "03 Dec 2022",
         "endDate" : "03 Dec 2022",
-        "Category": "Implementatio",
-        "SubCategory":"Front End",
-        "task" : "Front End Project Folder Setup",
+        "Category": "Access Provide",
+        "SubCategory":"Internal",
+        "task" : "Access Provided Project Tracking Panal",
         "status": "Done"
     },
     {
@@ -14,19 +14,49 @@
         "projectId": 1,
         "startDate" : "04 Dec 2022",
         "endDate" : "04 Dec 2022",
-        "Category": "Implementatio",
-        "SubCategory":"Front End",
-        "task" : "Backend Project Folder Setup",
-        "status": "Pending"
+        "Category": "Project Details Update",
+        "SubCategory":"Internal",
+        "task" : "Project Tracking Software project Details Updated",
+        "status": "Done"
     },
     {
         "id": 3,
         "projectId": 1,
-        "startDate" : "05 Dec 2022",
+        "startDate" : "10 Dec 2022",
         "endDate" : "10 Dec 2022",
-        "Category": "Implementatio",
+        "Category": "Implementation",
+        "SubCategory":"Database",
+        "task" : "Database Structure Design And Updated to Project Tracking Software",
+        "status": "Pending"
+    },
+    {
+        "id": 4,
+        "projectId": 1,
+        "startDate" : "11 Dec 2022",
+        "endDate" : "11 Dec 2022",
+        "Category": "Implementation",
         "SubCategory":"Front End",
-        "task" : "Database Model Creation",
+        "task" : "Frontend Project Setup including folder structure and required dependencies download",
+        "status": "Pending"
+    },
+    {
+        "id": 5,
+        "projectId": 1,
+        "startDate" : "12 Dec 2022",
+        "endDate" : "12 Dec 2022",
+        "Category": "Implementation",
+        "SubCategory":"Back End",
+        "task" : "Backend Project Setup including folder structure and required dependencies download",
+        "status": "Pending"
+    },
+    {
+        "id": 6,
+        "projectId": 1,
+        "startDate" : "13 Dec 2022",
+        "endDate" : "16 Dec 2022",
+        "Category": "Planing",
+        "SubCategory":"Front End",
+        "task" : "Defining frontend model and functionality behavior",
         "status": "Pending"
     }
 ]
